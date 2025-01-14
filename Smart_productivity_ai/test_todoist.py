@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Fetch Todoist API key
-todoist_api_key = os.getenv("TODOIST_API_KEY")
+todoist_api_key = os.getenv("#")
 
 print("Todoist API Key:", todoist_api_key)
 
